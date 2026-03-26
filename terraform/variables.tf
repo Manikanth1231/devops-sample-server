@@ -1,5 +1,5 @@
 variable "aws_region" {
-  default = "us-east-1"
+  default = "us-west-2"
 }
 
 variable "vpc_id" {
@@ -11,4 +11,3 @@ variable "subnet_ids" {
   description = "List of subnet IDs"
   type        = list(string)
 }
-
